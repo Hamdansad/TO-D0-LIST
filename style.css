@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c56c86;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.main{
+    width: 100%;
+    height: 90%;
+}
+.navbar{
+    height: 10% !important;
+}
+.bgcolor{
+    background-color: #3c424a;
+}
+.navbar-brand{
+    color: #c56c86 !important;
+}
+.main2{
+    width: 100vw;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main3{
+    width: 30%;
+    min-height: 90%;
+    background-color: #3c424a;
+    border-radius: 10px;
+    padding-top: 30px;
+    box-shadow: 5px 6px 8px;
+}
+.main4{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.main5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+input{
+    background-color: #4a4f55;
+    border-radius: 10px;
+    width: 50%;
+    height: 30px;
+    padding-left: 10px;
+    color: white;
+}
+.addchange{
+    margin-left: 20px;
+    width: 60px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: #c56c86;
+}
+::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+ul{
+    list-style: none;
+    min-height: auto;
+    margin-left: -20PX;
+    margin-top: 40px;
+    width: 90%;
+    color: white;
+
+}
+.listedit{
+    width: 90%;
+    margin-top: 10px;
+    padding: 8px 0px 8px 10px;
+    border-radius: 10px;
+    background-color: #3c424a;
+    box-shadow: 1px 1px 1px black;
+
+}
+.listedit:hover{
+    box-shadow: 2px 2px 5px black;
+}
+@media all  and (max-width:1440px){
+    .main3{
+
+
+        width: 50%;
+    }
+}
+
+@media all  and (max-width:1024px){
+    .main3{
+
+
+        width: 50%;
+    }
+}
+@media (max-width:768px){
+    .main3{
+        width: 50%;
+    }
+}
+@media (max-width:432px){
+    .main3{
+        width: 90%;
+    }
+}
