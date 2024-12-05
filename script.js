@@ -68,14 +68,6 @@ function doit() {
         });
 
 
-        //checkbox
-
-        // const checkbox=document.createElement("input")
-        // checkbox.type="checkbox"
-        // list.appendChild(checkbox)
-        // checkbox.style.height="10px"
-        // checkbox.style.marginLeft="40px"
-
     } else {
         alert("Enter the task!");
     }
